@@ -1,0 +1,31 @@
+{
+  "name": "purplebooth/encapsulation-traits",
+  "description": "Traits break encapsulation",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "PurpleBooth\\EncapsulationTraits\\": "src/"
+    }
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true,
+    "apcu-autoloader": true
+  },
+  "authors": [
+    {
+      "name": "Billie Alice Thompson",
+      "email": "billie@purplebooth.co.uk"
+    }
+  ],
+  "scripts": {
+    "run": [
+      "@composer install",
+      "@php run.php"
+    ]
+  },
+  "require": {
+    "php": ">=7.1"
+  }
+}
